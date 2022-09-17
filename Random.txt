@@ -1,2 +1,0 @@
-Random sample text file for testing out whether
-or not I have cloned & created a branch properly ;)
