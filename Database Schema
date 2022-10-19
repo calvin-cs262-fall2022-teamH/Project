@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS Schedule;
+DROP TABLE IF EXISTS Events;
+
+-- Create the schema.
+CREATE TABLE Schedule (
+    ID integer PRIMARY KEY,
+    owner varchar(50) NOT NULL
+);
+CREATE TABLE Events (
+    eventID integer PRIMARY KEY,
+    name varchar(50) NOT NULL,
+    startTime timestamp,
+    endTime timestamp,
+    location varchar(50) NOT NULL,
+    eventLead varchar(50) NOT NULL,
+    scheduleID integer REFERENCES Schedule(ID)
+);
