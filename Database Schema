@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS Schedule;
 DROP TABLE IF EXISTS Events;
+DROP TABLE IF EXISTS User;
 
 -- Create the schema.
 CREATE TABLE Schedule (
@@ -11,7 +12,14 @@ CREATE TABLE Events (
     name varchar(50) NOT NULL,
     startTime timestamp,
     endTime timestamp,
+    duration decimal(4,2), 
+    dayDesignation varchar(50),
     location varchar(50) NOT NULL,
     eventLead varchar(50) NOT NULL,
     scheduleID integer REFERENCES Schedule(ID)
 );
+CREATE TABLE User (
+    ID integer PRIMARY KEY,
+    name varchar(50) NOT NULL,
+    scheduleID integer REFERENCES Schedule(ID)
+)
