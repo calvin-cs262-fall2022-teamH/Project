@@ -5,15 +5,15 @@ DROP TABLE IF EXISTS User;
 -- Create the schema.
 CREATE TABLE Schedule (
     ID integer PRIMARY KEY,
-    owner varchar(50) NOT NULL
+    semesterYear varchar(50),
+    userID integer REFERENCES User(ID)
 );
 CREATE TABLE Events (
     eventID integer PRIMARY KEY,
     name varchar(50) NOT NULL,
     startTime timestamp,
     endTime timestamp,
-    duration decimal(4,2), 
-    dayDesignation varchar(50),
+    dayDesignation varchar(5),
     location varchar(50) NOT NULL,
     eventLead varchar(50) NOT NULL,
     scheduleID integer REFERENCES Schedule(ID)
@@ -21,5 +21,4 @@ CREATE TABLE Events (
 CREATE TABLE User (
     ID integer PRIMARY KEY,
     name varchar(50) NOT NULL,
-    scheduleID integer REFERENCES Schedule(ID)
 )
