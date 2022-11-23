@@ -6,12 +6,13 @@
 
 
 ### Relevant Documents:
-- [Domain Model](https://github.com/calvin-cs262-fall2022-teamH/Project/blob/main/Domain%20Diagram%20Final.jpg)
+- [Domain Model](https://github.com/calvin-cs262-fall2022-teamH/Project/blob/main/Domain%20Model.jpg)
 - [UI Prototype](https://github.com/calvin-cs262-fall2022-teamH/Project/blob/main/UI)
 
 ### Links to Other Repositories:
 - [Client](https://github.com/calvin-cs262-fall2022-teamH/Client)
 - [Service](https://github.com/calvin-cs262-fall2022-teamH/Service)
+- [xlsx Uploader](https://github.com/calvin-cs262-fall2022-teamH/xlsxUploader)
 - [Organization](https://github.com/calvin-cs262-fall2022-teamH)
 
 ## Team Members:
