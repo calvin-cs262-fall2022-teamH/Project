@@ -9,6 +9,7 @@
 - [Domain Model](https://github.com/calvin-cs262-fall2022-teamH/Project/blob/main/Domain%20Model.jpg)
 - [UI Prototype](https://github.com/calvin-cs262-fall2022-teamH/Project/blob/main/UI)
 - [Online Help System](https://docs.google.com/document/d/17ewu3HraSJKgOUDtkgrv7aYVJRbmVRD2IMDmhN3f9O8/edit?usp=sharing)
+- [Deployment Diagram] (https://github.com/calvin-cs262-fall2022-teamH/Project/blob/main/Deployment%20Model.png)
 
 ### Links to Other Repositories:
 - [Client](https://github.com/calvin-cs262-fall2022-teamH/Client)
